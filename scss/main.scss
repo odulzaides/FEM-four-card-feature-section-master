@@ -1,0 +1,19 @@
+@import './variables/variables';
+@import './compnents/components';
+html,
+body,
+*,
+*>* {
+    margin: 0;
+    padding: 0;
+    font-family: $mainFontFamily;
+    font-size: 15px;
+    background-color: $VeryLightGray;
+    // display: grid;
+}
+
+.container {
+    display: grid;
+    width: 95%;
+    margin: 0 auto;
+}
