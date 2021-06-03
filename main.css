@@ -1,14 +1,14 @@
 header {
   padding: 2.5rem 1rem 1rem 1rem;
   margin-top: 3rem;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
+  width: 90%;
 }
 
 h1 {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   margin: 0 auto;
   text-align: center;
-  letter-spacing: 1.75px;
 }
 
 .header__title h1:nth-child(1) {
@@ -18,23 +18,29 @@ h1 {
 
 .header__title h1:nth-child(2) {
   color: #4c4e61;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.3rem;
   font-weight: 700;
 }
 
 .header__text {
   color: #a3a5ae;
   text-align: center;
-  font-size: 1rem;
-  letter-spacing: .5px;
+  font-size: 1.2rem;
   margin-bottom: 2rem;
+  line-height: 1.7;
 }
 
 .card {
-  -webkit-box-shadow: 1px 0px 10px #a3a5ae;
-          box-shadow: 1px 0px 10px #a3a5ae;
-  margin: 0 1rem 1.5rem 1rem;
+  -webkit-box-shadow: 1px 10px 20px #a3a5ae;
+          box-shadow: 1px 10px 20px #a3a5ae;
+  margin: 0 1rem 2.3rem 1rem;
   border-radius: 10px;
+}
+
+.card__title {
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+  color: #4c4e61;
 }
 
 .card__title,
@@ -75,7 +81,7 @@ h1 {
 img {
   padding-left: 75%;
   padding-top: 3rem;
-  padding-bottom: 1.75rem;
+  padding-bottom: 1rem;
 }
 
 html,
