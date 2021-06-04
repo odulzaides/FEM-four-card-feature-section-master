@@ -93,11 +93,13 @@ img {
     display: -ms-grid;
     display: grid;
     width: 80%;
+    height: 100vh;
   }
   header {
     margin: 0 auto;
     text-align: center;
     width: 42%;
+    margin-bottom: 2rem;
   }
   .cards {
     display: -ms-grid;
