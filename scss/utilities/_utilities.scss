@@ -1,0 +1,9 @@
+// TODO - Refactor HTML to use utility classes to set font-size centering etc.
+@mixin center {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.heading-font {
+    font-size: 1.8rem;
+}

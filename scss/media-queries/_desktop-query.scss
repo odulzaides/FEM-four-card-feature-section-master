@@ -1,0 +1,55 @@
+@media screen and (min-width:1440px) {
+    .container {
+        display: grid;
+        width: 80%;
+    }
+    header {
+        @include center;
+        width: 42%;
+    }
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 3;
+        grid-template-areas: ". team-builder ." "supervisor . calculator" ". karma ."
+    }
+    .card {
+        // TODO - fix card size below
+        @include center;
+        margin-top: 0 auto;
+        text-align: left;
+        // width: 415px;
+        // height: 300px;
+        // width: 30rem;
+        // height: 20rem;
+        width: calc(90%);
+        height: auto;
+        margin-bottom: 4rem;
+        &__title,
+        &__body {
+            width: 70%;
+            padding-left: 3.5rem;
+        }
+    }
+    #team-builder {
+        grid-area: team-builder;
+        margin-bottom: -9rem;
+    }
+    #supervisor {
+        grid-area: supervisor;
+    }
+    #karma {
+        grid-area: karma;
+        margin-top: -13rem;
+    }
+    #calculator {
+        grid-area: calculator;
+    }
+    img {
+        margin-bottom: 1rem;
+        margin-top: 2rem;
+    }
+    footer {
+        margin-bottom: 3rem;
+    }
+}

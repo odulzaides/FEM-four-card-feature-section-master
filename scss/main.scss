@@ -1,5 +1,7 @@
 @import './variables/variables';
+@import './utilities/utilities';
 @import './compnents/components';
+@import './media-queries/desktop-query.scss';
 html,
 body,
 *,
@@ -14,6 +16,6 @@ body,
 
 .container {
     display: grid;
-    width: 95%;
+    width: 90%;
     margin: 0 auto;
 }
